@@ -1,0 +1,3 @@
+This is a simple counter application built using React, HTML, and CSS to understand the basics of state management with the useState hook. The app displays a numeric value that can be incremented, decremented, or reset using buttons. Each button click updates the counter value instantly without refreshing the page, demonstrating how React re-renders the UI based on state changes. Clean HTML structure and basic CSS styling are used to create a clear, user-friendly interface, making this project ideal for beginners learning React fundamentals and interactive UI behavior.
+
+<img width="1898" height="911" alt="image" src="https://github.com/user-attachments/assets/f880da9d-5e3e-448f-9d1e-47933646a35d" />
