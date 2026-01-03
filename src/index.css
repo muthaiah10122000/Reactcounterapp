@@ -1,13 +1,37 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.body {
+
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  background-image: url("./Assets/Images/pexels-jagheterjohann-940365.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+
+  background: #3F5EFB;
+  background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+  height: fit-content;
+  width: 200px;
+  display: flex;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  align-items: center;
+  gap: 5px;
+  flex-direction: column;
+}
+
+.container button {
+
+  size: 30px;
+  padding: 10px;
+  width: 50%;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
 }
